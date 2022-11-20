@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/var/www/html
     ports:
-      - 80:80
+      - 8000:80
   mysql:
     image: mariadb:10.10
     volumes:
