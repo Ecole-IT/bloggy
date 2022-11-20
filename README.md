@@ -8,6 +8,8 @@ A very simple & light api written in PHP to manage post.
 docker-compose up -d
 ```
 
+In order to use bloggy for your classroom, ensure that each student, has an endpoint of the form of: `XXXX.domain.com` where `XXXX` is the student_id to isolate student from others without need to deploy dedicated instances.
+
 ## Entities
 
 You could retrieve the database diagram here: https://dbdiagram.io/d/637a04f4c9abfc611173ef29
