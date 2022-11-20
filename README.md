@@ -8,6 +8,10 @@ A very simple & light api written in PHP to manage post.
 docker-compose up -d
 ```
 
+## Entities
+
+You could retrieve the database diagram here: https://dbdiagram.io/d/637a04f4c9abfc611173ef29
+
 ## Routes
 
 All response are in JSON.
