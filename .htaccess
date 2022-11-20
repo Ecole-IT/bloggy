@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)/(.*)$ /index.php?section=$1&id=$2 [NC,L,QSA]
