@@ -22,5 +22,5 @@ CREATE TABLE `posts`
     image_url varchar(2048) NOT NULL,
     created_at datetime NOT NULL default current_time,
     student_id int NOT NULL,
-    FOREIGN KEY (author_id) references `users` (id)
+    FOREIGN KEY (`author_id`) references `users` (`id`)
 );
